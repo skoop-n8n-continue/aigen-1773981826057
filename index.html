@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blowfish Poke - Clarksville Menu</title>
+
+    <!-- Cache busting & prevention -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <link rel="stylesheet" href="styles.css?v=bpk123">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">🐡</div>
+                <h1>Blowfish Poké</h1>
+            </div>
+            <div class="location-badge">Clarksville, MD</div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Sidebar Navigation -->
+            <nav class="sidebar">
+                <ul class="nav-list" id="category-nav">
+                    <!-- Categories injected by JS -->
+                </ul>
+            </nav>
+
+            <!-- Menu Display Area -->
+            <section class="menu-display" id="menu-display">
+                <div class="category-header">
+                    <h2 id="current-category-title">Select a Category</h2>
+                    <p id="current-category-desc"></p>
+                </div>
+                <div class="menu-grid" id="menu-grid">
+                    <!-- Menu items injected by JS -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Modal for Item Details -->
+        <div class="modal-overlay" id="item-modal">
+            <div class="modal-content">
+                <button class="close-btn" id="close-modal">&times;</button>
+                <div class="modal-body" id="modal-body">
+                    <!-- Modal content injected by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=bpk123"></script>
+</body>
+</html>
